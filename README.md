@@ -1,5 +1,5 @@
 # TurnOnNotice
-This script notify you when your computer has been turned on.
+This simple script notify you when your computer has been turned on.
 
 ## How to setup
 
