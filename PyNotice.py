@@ -29,4 +29,4 @@ class email:
             messagebox.showerror("Error", "Invalid email address")
 
 if __name__ == "__main__":
-    email("Enter Your Email here.").send_email()
+    email(config["SEND_TO"]).send_email()
