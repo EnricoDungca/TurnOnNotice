@@ -3,7 +3,7 @@ from datetime import datetime
 from dotenv import dotenv_values
 from tkinter import messagebox
 
-config = dotenv_values('config.env.secret') # This line is responsible for restoring environment values
+config = dotenv_values('config.env.secret') 
 datenow = datetime.now()
 dt = datenow.strftime("%Y-%m-%d %H:%M:%S")
 
